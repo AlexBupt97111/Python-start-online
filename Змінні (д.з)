@@ -1,0 +1,11 @@
+a = int(input('Input 5-digit number:'))
+p_1 = a//10000
+p_2= a%10000//1000
+p_3 = a%1000//100 #added
+p_4 =  a%100//10 #added
+p_5 = a%10 #added
+print(p_1)
+print(p_2)
+print(p_3)
+print(p_4)
+print(p_5)
