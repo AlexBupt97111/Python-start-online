@@ -1,0 +1,12 @@
+x = float(input("input positiv or negativ float number for x: "))
+y = float(input("input positiv or negativ float number for y: "))
+if x>0 and y>0:
+    print('point A in 1 quarter')
+elif x<0 and y>0:
+    print('point A in 2 quarter')
+elif x<0 and y<0:
+    print('point A in 3 quarter')
+elif  x>0 and y<0:
+    print('point A in 4 quarter')
+else:
+    print("Unknow. Check data")# with check
