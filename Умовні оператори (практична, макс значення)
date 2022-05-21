@@ -1,6 +1,6 @@
-a = int(input("Input  number "))
-b = int(input("Input  number "))
-c = int(input("Input  number "))
+a = int(input("Input  number: "))
+b = int(input("Input  number: "))
+c = int(input("Input  number: "))
 max_number  = a
 if b > max_number:
     max_number = b
