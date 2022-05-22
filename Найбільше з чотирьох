@@ -1,0 +1,12 @@
+a = int(input("Input  number: "))
+b = int(input("Input  number: "))
+c = int(input("Input  number: "))
+d = int(input("Input  number: "))
+max_number  = a
+if b > max_number:
+    max_number = b
+if c > max_number:
+    max_number = c
+if d > max_number:
+    max_number = d  
+print(max_number)
