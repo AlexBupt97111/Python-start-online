@@ -1,0 +1,14 @@
+num = 5 # 15
+i = 1
+while i <= num:
+    print(i)
+    i = i + 1
+    if i > 10:
+        print("Num too big")
+        break
+else:
+    print("Not bad one")
+    
+# Not bad
+
+#Num to big (with block while  else work another than with block if )
