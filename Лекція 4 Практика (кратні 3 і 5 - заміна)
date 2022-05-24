@@ -1,9 +1,11 @@
 i = 1
-while i < 100:
-    print(i)
-    i +=1
-    if i % 3 == 0:
+while i <= 100:
+    if i % 3 == 0 and i % 5 == 0:
+        print("spam-egg")
+    elif i % 3 == 0:
         print("spam")
     elif i % 5 == 0:
         print("egg")
-  
+    else:
+        print(i)#if all previous cycle work good
+    i += 1 #make number bigger (here step = 1)
