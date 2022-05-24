@@ -30,3 +30,17 @@ elif 109 <= a <= 144:
 else:
     print("Такої квартири не існує. Перевірте введений номер.")
     
+ 
+ #### Вирішення (поверх, під'їзд  за номером квартири)
+ 
+ flat = int(input("Input flat number: "))
+
+if flat > 0 and flat <= 144:
+    pod = (flat - 1)//36 + 1
+    floor = ((flat - 36*(pod - 1)) - 1)//4 + 1
+    print("Подъезд: ", pod)
+    print("Этаж: ", floor)
+else:
+    print("No such apartment")
+
+    
