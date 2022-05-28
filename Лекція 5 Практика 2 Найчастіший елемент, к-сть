@@ -1,0 +1,13 @@
+import random
+a = []
+for i in range(20):
+    a.append(random.randint(1, 10))    
+max_el = a[0]# за замовчуванням - нульовий  - найчастіший
+max_count = a.count(max_el)# макс к-сть  = к-сть найчаст елем
+for el in a:
+    if a.count(el) > max_count:
+        max_count = a.count(el)
+        max_el = el
+
+print(max_el)
+print(max_count)
