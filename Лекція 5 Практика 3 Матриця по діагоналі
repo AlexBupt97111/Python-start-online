@@ -1,0 +1,15 @@
+import random
+a = []
+for i in range(5):#  5-dimension matrix
+    row = []# create empty row
+    for j in range(5):
+        row.append(random.randint(1,10))#add data
+    a.append(row)# add rows while j<=5
+for el in a:
+    print(el)
+
+s = 0
+for i in range (len(a)): #(component of row mtrx)
+    s = s+a[i][i] #[номер ряду][номер стовпу] - по діагоналі
+print(s)
+  
