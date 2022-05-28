@@ -1,0 +1,8 @@
+h = int(input("Input number: "))
+w = int(input("Input number: "))
+i = 1
+j = 1
+while i == 1 and j <= h:
+    print("*", end = '')
+    j += 1
+print()
