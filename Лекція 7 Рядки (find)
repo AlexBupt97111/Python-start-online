@@ -1,0 +1,10 @@
+a = "hello"
+a = a.find("ll")
+print(a)
+#2
+
+#####
+a = "hello"
+a = a.find("lll")
+print(a)
+# - 1 # no incoming
