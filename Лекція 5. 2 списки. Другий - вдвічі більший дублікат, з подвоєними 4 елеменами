@@ -1,0 +1,10 @@
+import random
+a = []
+for i in range(4):
+    a.append(random.randint(1, 10))
+print(a)
+b = a
+for i in range(len(a)):
+    i = a[i]*2
+    b.append(i)
+print(b)
