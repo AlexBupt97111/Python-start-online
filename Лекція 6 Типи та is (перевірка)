@@ -1,0 +1,12 @@
+a = 10
+b = a
+print(a,b)
+print(a is b)
+b = 5 #change (immu, create new object so check Is==False)
+print(a,b)
+print(b is a, a is b)
+
+#10 10
+#True
+#10 5
+#False False
