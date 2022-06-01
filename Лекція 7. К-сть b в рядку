@@ -1,0 +1,2 @@
+a = input("Input sentence for checking: ")
+print(a.count("b"))
