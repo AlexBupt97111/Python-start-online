@@ -1,0 +1,6 @@
+a = [7,2,9,4]
+a.reverse()
+print(a)
+
+#####
+print(a[::-1])
