@@ -4,3 +4,16 @@ for i in a:
     if i.isalpha():
         b = b + i
         print(i,' - ', b.count(i))
+        
+########
+a = input("Input text: ")
+lets = [] # for unique (used), avoid doubling
+a = a.upper() # all symbols - same
+for i in a:#find elem
+    if i.isalpha() and not i in lets:#check; avoid doubling
+        count = 0
+        for let in a:#check equility
+            if let == i:#If == what find
+                count += 1
+        lets.append(i)
+        print(i, "->", count)
