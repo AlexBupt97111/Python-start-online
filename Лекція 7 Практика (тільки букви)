@@ -1,0 +1,6 @@
+a = "hello world 34 rt45 star12"
+b = ""
+for i in a:
+    if i.isalpha():
+        b = b + i
+print(b)
