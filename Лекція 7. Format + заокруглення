@@ -1,0 +1,2 @@
+a = "I buy {good} and pay {price:.2f} UAH.".format(good = "orange", price = 24.4568 )
+print(a)
