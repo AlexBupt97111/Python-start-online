@@ -1,2 +1,7 @@
 a = "I buy {good} and pay {price:.2f} UAH.".format(good = "orange", price = 24.4568 )
 print(a)
+
+########
+n = 7
+a = "I buy {good} and pay {price:.{num}f} UAH.".format(num = n, good = "orange", price = 24.4568 )
+print(a)
