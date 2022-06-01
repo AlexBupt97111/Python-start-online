@@ -1,0 +1,7 @@
+a = "123, 23, 12"
+a = a.split(",")
+print(a) # ['123', ' 23', ' 12']  
+s = 0
+for i in a:
+    s = s + int(i)
+print(s) # 158
