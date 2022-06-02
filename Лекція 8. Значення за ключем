@@ -1,0 +1,5 @@
+dict_one = {2:'two', 7:'seven'}#create dict
+dict_one["my_List"] = [2,4,8,9]#key(str), value(list)
+print(dict_one)
+my_list = dict_one["my_List"]#give elem to list from dict by key
+print(my_list)
