@@ -1,20 +1,26 @@
 dict_one = {2:'two', 7:'seven'}#create dict
-print(dict_one.get(7))
+print(dict_one.get(7))#0
 
-print(dict_one.items())
+print(dict_one.items())#1
 
-for pair in dict_one.items():
+for pair in dict_one.items():#2
     print(pair)
     
-for key in dict_one.keys():
+for key in dict_one.keys():#3
     print(key)    
+    
+for i in dict_one.keys():#4
+    print(i, "=>", dict_one[i])    
 
 ##############
-seven
+seven #0
 
-dict_items([(2, 'two'), (7, 'seven')])
+dict_items([(2, 'two'), (7, 'seven')]) #1
 
 (2, 'two')
-(7, 'seven')
+(7, 'seven') #2
 
-2,7
+2,7 #3
+
+2 => two
+7 => seven #4
