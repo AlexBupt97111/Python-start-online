@@ -1,4 +1,15 @@
 dict_one = {2:'two', 7:'seven'}#create dict
 print(dict_one.get(7))
+
 print(dict_one.items())
 
+for pair in dict_one.items():
+    print(pair)
+
+##############
+seven
+
+dict_items([(2, 'two'), (7, 'seven')])
+
+(2, 'two')
+(7, 'seven')
