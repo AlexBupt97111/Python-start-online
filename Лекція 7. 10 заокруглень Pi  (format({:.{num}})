@@ -1,0 +1,6 @@
+import math
+n = 3
+while n <= 12:
+    a = "Pi = {:.{num}}".format(math.pi, num = n)    
+    print(a)
+    n += 1
