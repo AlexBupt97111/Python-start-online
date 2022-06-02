@@ -1,2 +1,4 @@
 dict_one = {2:'two', 7:'seven'}#create dict
 print(dict_one.get(7))
+print(dict_one.items())
+
