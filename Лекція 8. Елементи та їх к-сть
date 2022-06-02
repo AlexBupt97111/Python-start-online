@@ -25,4 +25,6 @@ for el in a:
         d[el] = 1#
     else:
         d[el] = num + 1#if elem find another time
-print(d)
+        
+for key in d.keys():
+    print(key, "=>", d[key])#d[key] - get value by key
