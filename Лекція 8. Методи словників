@@ -5,6 +5,9 @@ print(dict_one.items())
 
 for pair in dict_one.items():
     print(pair)
+    
+for key in dict_one.keys():
+    print(key)    
 
 ##############
 seven
@@ -13,3 +16,5 @@ dict_items([(2, 'two'), (7, 'seven')])
 
 (2, 'two')
 (7, 'seven')
+
+2,7
