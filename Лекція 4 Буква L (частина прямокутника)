@@ -10,3 +10,21 @@ while j <= w:
    print('*', end = '')
    j += 1
 print()
+
+
+##########
+while i <= h:
+    j = 1
+    if i == 1 or i == h:
+        while j <= w:
+            print("*", end = '')
+            j = j + 1
+    else:
+        while j <= w:
+            if j == 1 or j == w:
+                print("*", end = '')
+            else:
+                print(" ", end='')
+            j = j + 1
+    print()
+    i = i + 1
