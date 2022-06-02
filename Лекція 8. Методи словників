@@ -12,7 +12,10 @@ for key in dict_one.keys():#3
     print(key)    
     
 for i in dict_one.keys():#4
-    print(i, "=>", dict_one[i])    
+    print(i, "=>", dict_one[i]) 
+    
+for el in dict_one.values(): #5
+    print(el)     
 
 ##############
 seven #0
@@ -26,3 +29,6 @@ dict_items([(2, 'two'), (7, 'seven')]) #1
 
 2 => two
 7 => seven #4
+
+two
+seven #5
