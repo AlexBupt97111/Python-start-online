@@ -1,0 +1,3 @@
+s = {"n":"A", "a":24, "l_n":"S", "group":"ETS2-1"}
+print(s.get("a"))
+    
