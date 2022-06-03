@@ -1,0 +1,12 @@
+c = {
+  "name":"Murzik",
+  "age":3,
+  "color":"grey"
+}
+print(c.get("color"))
+c["age"] = 4.6
+print(c.get("age"))
+
+########
+grey
+4.6
