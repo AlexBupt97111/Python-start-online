@@ -1,0 +1,14 @@
+import random
+names = ["Simba", "Murchik", "Murka", "Masya", "Pushok"]
+cats  = []#list for cats
+for i in range(5):#5 cats
+    cat = {"name":names[i],#variable name = names[i]
+           "age": random.randint(1,15)#generate age
+          }
+    cats.append(cat)#add cat(dict) to list
+print(cats)# list with dicts
+max_cat = cats[0] #by default - oldest - first one dict in list
+for cat in cats:
+    if max_cat.get("age") < cat.get("age"):
+        max_cat = cat
+print(max_cat)
