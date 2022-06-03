@@ -1,0 +1,16 @@
+cat = {"name":"Pushok",
+     "age":6,
+     "color":"grey",
+     "weight": "2.15 kg",
+     "Owner":{"name":"Alex",
+               "surname":"Tsymbal",
+               "age":32,
+               "city":"Poznan"
+              }
+      }
+for i in cat:
+    if i !="Owner":
+        el = cat.get(i)
+        print( i,":", el)
+    else:
+        print(i, "-", cat.get(i))
