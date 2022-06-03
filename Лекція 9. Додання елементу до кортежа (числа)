@@ -1,0 +1,8 @@
+t_1 = (1,2,3)
+t_2 = t_1
+print(t_2 is t_1) #True
+#t_2 = t_2 +(7)#Error
+t_2 = t_2 +(7,)#because use ,
+print(t_2) #(1, 2, 3, 7)
+print(t_1)  #(1, 2, 3)
+print(t_1 is t_2) #False
