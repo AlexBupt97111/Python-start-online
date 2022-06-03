@@ -1,0 +1,12 @@
+c = {
+  "name":"Murzik",
+  "age":3,
+  "color":"grey", 
+  "adress":{
+    "city":"Kyiv",
+    "street":"Arsenal",
+    "house":39,
+    "flat":5
+      
+  }
+}
