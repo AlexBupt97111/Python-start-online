@@ -1,0 +1,7 @@
+a = (2,3,4,2,2,4)#tuple
+b = [2,3,4,2,2,4]
+print(hash(a))
+print(hash(b))#mutable so hash not work
+
+#-211028065809063795
+# Error
