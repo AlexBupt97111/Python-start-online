@@ -1,0 +1,12 @@
+d = {}
+a = input("Input sentence: ")
+for el in a:
+    if el.isalpha():#add only letters 
+        c = d.get(el)
+        if c:#if find another time
+            d[el] = c + 1 #add 1 to count
+        else:
+            d[el] =  1#вперше
+
+for key in d.keys():
+    print(key, '=>', d[key])# key, value
