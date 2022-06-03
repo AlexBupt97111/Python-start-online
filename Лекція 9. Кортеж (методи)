@@ -2,3 +2,4 @@ a = (2,3,4,2,2,4)
 print(a, type(a))
 print(a.index(3))#return index of elem
 print(a.count(2))#count of certain elem
+print(a[2])#elem by index
