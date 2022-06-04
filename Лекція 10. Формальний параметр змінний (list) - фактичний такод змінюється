@@ -1,0 +1,15 @@
+def calc(a):
+    a[0] = 3#change formal; a[0] = 3 , was 1;
+    s = 0
+    for i in a:
+      s = s + i #find sum
+      return s 
+a = [1,2,3]#and fact  change - mutable because(list)
+
+print(calc(a))# not 1+2+3 but 3+2+3
+print(a)
+
+##########
+
+8
+[3, 2, 3]
