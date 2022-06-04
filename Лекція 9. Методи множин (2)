@@ -4,3 +4,21 @@ s_1 = s_1.union(s_2)
 print(s_1)#without doubling
 
 #{1, 2, 3, 5, 6} #result without doubling
+
+###########
+
+s_1 = {1,3,5}
+s_2 = {2,3,6}
+s_3 = s_1.intersection(s_2)
+print(s_3)#common elems for both
+
+#{3} #commin elems for both
+
+#############
+
+s_1 = {1,3,5}
+s_2 = {2,3,6}
+s_3 = s_1.difference(s_2)
+print(s_3)#elem only from first and which not in second
+
+#{1, 5}
