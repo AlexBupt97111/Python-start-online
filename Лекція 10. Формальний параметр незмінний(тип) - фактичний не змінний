@@ -1,0 +1,9 @@
+def calc(a, b):
+    a = a+3 #change formal; a = 10+3
+    c = a+b
+    return c 
+    
+a = 10 #but fact not change - immutable because!
+b = 15
+print(calc(a,b))
+print(a, b)
