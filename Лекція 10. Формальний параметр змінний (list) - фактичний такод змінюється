@@ -1,5 +1,5 @@
 def calc(a):
-    a[0] = 3#change formal; a[0] = 3 , was 1;
+    a[0] = a[0] + 3#change formal; a[0] = 4 , was 1;
     s = 0
     for i in a:
       s = s + i #find sum
@@ -11,5 +11,5 @@ print(a)
 
 ##########
 
-8
-[3, 2, 3]
+9
+[4, 2, 3]
