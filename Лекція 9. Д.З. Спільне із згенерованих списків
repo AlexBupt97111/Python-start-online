@@ -1,0 +1,13 @@
+import random
+a = []
+b = []
+for i in range(25):
+    i = random.randint(1, 100)
+    if i % 3 == 0:
+        a.append(i)
+    if i % 5 == 0:
+        b.append(i)
+print(a,b)
+a,b = set(a), set(b)
+c = a.intersection(b)
+print(list(c))
