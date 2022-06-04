@@ -1,0 +1,5 @@
+def calc(a, b, c):
+    d = a+b+c
+    return c   
+print(calc(2,3,5))
+print(d)#Error (bacause d - is lokal)
