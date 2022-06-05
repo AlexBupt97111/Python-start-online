@@ -6,6 +6,10 @@ def summ(a):
     return s 
  
 a = [1,2,4,6,3,7]
+##d = summ(a) #create variable for call and show result of func
 print(summ(a))
+##print(d)
+
 
 #11
+##11
