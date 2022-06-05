@@ -1,0 +1,21 @@
+def summ(l, i):
+    if i < len(l)-1:#if index of elem = len(l) - 1
+        return l[i] + summ(l, i+1) #return elem + sum of next ones elems; (i+1) - make elem more on 1
+    else:
+        return l[i]  #last elem
+
+l = [2,3,4]
+print(summ(l, 0))
+
+
+################
+
+
+def summ(l, i):
+    if i == len(l)-1:#if index of elem = len(l) - 1
+        return l[i] #return value (terminal )
+    else:
+        return l[i] + summ(l, i+1) #recursive (return elem + (list with next value+1)
+
+l = [2,3,4]
+print(summ(l, 0))
