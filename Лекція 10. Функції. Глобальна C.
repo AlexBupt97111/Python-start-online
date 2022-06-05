@@ -1,0 +1,11 @@
+def summ(a, b):
+    global c #make global
+    c = a + b
+    return 2*c #result of func
+     
+print(summ(2,3))
+print(c)#global
+
+#######
+10 - result of func
+5 - glbal c
