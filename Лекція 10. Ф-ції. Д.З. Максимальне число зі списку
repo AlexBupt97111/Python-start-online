@@ -1,0 +1,8 @@
+def l_max(a):
+    max_el = a[0]
+    for i in a:
+        if i > max_el:
+            max_el = i
+    print(max_el)    
+a = [-2, -4, -6, 18]
+l_max(a)
