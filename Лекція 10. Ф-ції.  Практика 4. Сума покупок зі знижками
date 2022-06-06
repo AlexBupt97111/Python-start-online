@@ -14,9 +14,9 @@ def calc_new_price(good, sk):#define new price
     new_price = good.get("price") - discount
     return new_price
 
-def calculate_buy(goods,sk):#sum of all with discount
+def calculate_buy(list_of_goods,sk):#sum of all with discount
     total_sum = 0
-    for good in goods:
+    for good in list_of_goods:
         total_sum = total_sum + calc_new_price(good,sk)
     return total_sum
 
