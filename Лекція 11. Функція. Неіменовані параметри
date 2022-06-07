@@ -1,4 +1,4 @@
-def create_human(name, last_name, age):#not - named params
+def create_human(name, last_name, age):
     human = {"name":name,
         "last_name":last_name,
         "age":age
