@@ -1,0 +1,13 @@
+def draw(h,w, fill = "*"):#fill - by default
+    for i in range(h):
+        print(fill*w)
+
+draw(5,7, "x")# x, bacause input 3-rd parametr!
+
+###########
+
+xxxxxxx
+xxxxxxx
+xxxxxxx
+xxxxxxx
+xxxxxxx
