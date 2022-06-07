@@ -1,0 +1,13 @@
+def create_human(name, last_name, age):#named params
+    human = {"name":name,
+        "last_name":last_name,
+        "age":age
+        }
+    return human
+
+print(create_human(name = "Alex", age = 32,  last_name = "Tkach"))#named parametres, can be different order!!!
+print(create_human(name = "Max", last_name = "Lebovsky", age = 23))#named parametres, can be different order!!!
+
+###########
+{'name': 'Alex', 'last_name': 'Tkach', 'age': 32}
+{'name': 'Max', 'last_name': 'Lebovsky', 'age': 23}
