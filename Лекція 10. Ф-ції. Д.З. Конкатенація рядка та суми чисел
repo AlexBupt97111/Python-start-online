@@ -1,0 +1,11 @@
+def add_both(a, b, c):
+    d = c + str(a+b)
+    return d
+    #print(d)
+    
+  
+a = 2
+b = 6
+c = "Bye"
+print(add_both(a,b,c))
+#add_both(a,b,c)
