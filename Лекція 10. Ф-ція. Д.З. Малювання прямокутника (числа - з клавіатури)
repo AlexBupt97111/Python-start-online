@@ -1,0 +1,13 @@
+def rectangle(a,b): 
+    i = 1 # ряд
+    j = 1 # стовп
+    while i <= a:
+        j = 1 # work in first стовпу
+        while j <= b: # work in first ряду
+            print("*", end = '') # заповнюємо ряд
+            j = j + 1 # збільшується номер стовпа (клітинку)
+        print() # переведення рядку
+        i = i + 1 # перехід в інший ряд   
+a = int(input("Input number for height: "))
+b = int(input("Input number for width: "))        
+rectangle(a,b)
