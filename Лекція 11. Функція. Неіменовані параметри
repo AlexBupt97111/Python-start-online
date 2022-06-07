@@ -1,0 +1,10 @@
+def create_human(name, last_name, age):#not - named params
+    human = {"name":name,
+        "last_name":last_name,
+        "age":age
+        }
+    return human
+
+print(create_human("Max", "Lebovsky", 20))#not named, must be keep direct order!!!
+print(create_human("Alex", "Tkach", 30))#not named, must be keep direct order!!!
+
