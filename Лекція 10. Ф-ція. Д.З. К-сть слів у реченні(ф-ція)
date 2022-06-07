@@ -1,0 +1,10 @@
+def count_words(a):
+   a = a.split(" ")
+   print(a) # ['123', ' 23', ' 12']  
+   s = 0
+   for i in a:
+      if i.isalpha():
+        s = s + a.count(i)
+   print("Count of words:", s)
+a = input("Input sentence: ")
+count_words(a)
