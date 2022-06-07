@@ -1,0 +1,10 @@
+def find_el(a,b):
+    if b in a:
+        print("Index of element =", a.index(b)) 
+    else:
+        print(-1)
+                    
+a = [9,-8,6,5,7,0]
+b = 5
+find_el(a,b)
+
