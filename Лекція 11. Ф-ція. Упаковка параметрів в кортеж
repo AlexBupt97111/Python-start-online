@@ -1,0 +1,9 @@
+def find_min(*nums):
+    min_el = nums[0]
+    for i in nums:
+        if i < min_el:
+            min_el = i
+    return min_el
+
+print(find_min(0,2,3))
+        
