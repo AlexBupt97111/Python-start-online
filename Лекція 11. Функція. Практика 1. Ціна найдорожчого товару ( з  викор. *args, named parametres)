@@ -1,0 +1,22 @@
+def create_good(*args, number, price):#to create good
+    good = {
+      "description":args,
+      "number": number,
+      "price": price, 
+    }#create good (dict with name and price of certain item)
+    return good #return done dict
+
+good_1 = create_good("Chocolate",number = 274, price = 218)#first - in args, rest - named parametres
+good_2 = create_good("Coffe", number = 16758, price = 512)
+good_3 = create_good("Hamon", number = 6244, price =  2175)
+good_4 = create_good("Bread", number = 12, price = 31)
+good_5 = create_good("Green tea", number = 46, price =  82)
+
+def find_max(*list_of_goods):
+    max_price = list_of_goods[0]
+    for good in list_of_goods:
+        if good.get("price") > max_price.get("price"):
+            max_price = good
+    return max_price
+
+print(find_max(good_1, good_2, good_3, good_4, good_5))
