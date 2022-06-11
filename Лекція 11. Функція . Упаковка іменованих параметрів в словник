@@ -1,0 +1,5 @@
+def write(**params):
+    for key in params.keys():
+        print(key, "=>", params.get(key))
+
+write(name = "Alex", last_name = "Ts", age = 29)
