@@ -1,0 +1,9 @@
+def func(a):
+    return a*2
+def func(a):
+    return a*3
+t = func #accord value
+print(t(4))
+
+#######
+12
