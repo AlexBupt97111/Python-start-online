@@ -1,0 +1,16 @@
+def draw_triangle(h, fill):
+    for i in range(h):
+        print(fill * (i+1))
+  
+args = (6, '+')
+draw_triangle(*args)#unpackage
+
+################
+
++
+++
++++
+++++
++++++
+++++++
+        
