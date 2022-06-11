@@ -1,0 +1,26 @@
+def write(*params, num):
+    print(params)
+    print("Num=>",num)
+
+write( "Alex","Ts", 29, num = 456377)#with named param
+
+#########
+('Alex', 'Ts', 29)
+Num => 456377
+
+
+
+##############################################################################
+
+
+def write(*params, num):
+    print(params)
+    print(num)
+
+write( "Alex","Ts", 29, 456377)
+
+############
+Traceback (most recent call last):
+  File "main.py", line 5, in <module>
+    write( "Alex","Ts", 29, 456377)
+TypeError: write() missing 1 required keyword-only argument: 'num'
