@@ -1,0 +1,8 @@
+def func(a):
+    return a*2
+  
+t = func #accord value
+print(t(4))
+
+#####
+8
