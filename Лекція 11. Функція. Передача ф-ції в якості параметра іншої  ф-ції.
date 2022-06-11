@@ -1,0 +1,8 @@
+import math
+def change_list(list, func):
+    for i in range(len(list)):
+        list[i] = func(list[i])
+
+list = [0,1,4,6,9,3]
+change_list(list, math.sin)
+print(list)
