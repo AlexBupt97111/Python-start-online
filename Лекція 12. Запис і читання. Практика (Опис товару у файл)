@@ -1,0 +1,20 @@
+def create_good(description, price):#named params
+    good = {"description":description,
+        "price":price, 
+        }
+    return good
+
+good_1 = create_good("Bread", 32)
+good_2 = create_good("Milk", 45)
+good_3 = create_good("Butter", 95)
+goods_lst = [good_1, good_2, good_3]
+def save(goods_list, file_adress):
+    my_file = open(file_adress, "w")#create variable
+    for good in goods_list:
+        my_file.write(good.get("description"))
+        my_file.write(",")
+        my_file.write(str(good.get("price")))
+        my_file.write("\n")
+    my_file.close()
+  
+save(goods_lst, "Items.csv")  
