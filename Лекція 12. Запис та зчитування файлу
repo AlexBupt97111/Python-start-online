@@ -1,0 +1,12 @@
+f_one = open("Hello.txt", "w")#create and open
+f_one.write("Hello world")#write
+f_one.close()#close to save
+
+f_one = open("Hello.txt", "r")#open to read
+text = f_one.read()#read (use method)
+print(text)
+#Hello world
+
+#f_one = open("Hello.txt", "r")
+#print(str(f_one))
+#<_io.TextIOWrapper name='Hello.txt' mode='r' encoding='UTF-8'>
