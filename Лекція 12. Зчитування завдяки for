@@ -1,0 +1,10 @@
+s_list = ["Olga", "Sergiy", "Petr", "Lidia"]
+f_one = open("S.txt", "w")#create and open
+for i in range(len(s_list)):
+    f_one.write(str(i+1)+") " + str(s_list[i]) + "\n" )
+f_one.close()#close to save
+
+f_one = open("S.txt", "r")#open to read
+for text in f_one:#use cycle for
+    print(text)
+f_one.close()
