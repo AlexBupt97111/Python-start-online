@@ -1,0 +1,6 @@
+def long_word (file): 
+    fhand = open(file, "r") 
+    words = fhand.read().split() 
+    max_len = len(max(words, key=len)) 
+    return [word for word in words  if len(word) == max_len] 
+print(long_word('file.txt'))
