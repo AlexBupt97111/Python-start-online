@@ -8,3 +8,12 @@ f_one = open("S.txt", "r")#open to read
 for text in f_one:#use cycle for
     print(text)
 f_one.close()
+
+#########
+1) Olga
+
+2) Sergiy
+
+3) Petr
+
+4) Lidia
