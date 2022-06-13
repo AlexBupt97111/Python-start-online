@@ -1,0 +1,19 @@
+s_list = ["Olga", "Sergiy", "Petr", "Lidia"]
+f_one = open("S.txt", "w")#create and open
+for i in range(len(s_list)):
+    f_one.write(str(i+1)+") " + str(s_list[i] + "\n"))
+f_one.close()#close to save
+
+f_one = open("S.txt", "r")#open to read
+#t = f_one.readline()#to nearest  \n
+#print(t)# 1) Olga
+
+#text = f_one.readlines()#read (use method) - return list
+#print(text)#['1) Olga\n', '2) Sergiy\n', '3) Petr\n', '4) Lidia\n']
+
+f = f_one.read()
+print(f)
+#1) Olga
+#2) Sergiy
+#3) Petr
+#4) Lidia
