@@ -1,0 +1,15 @@
+f_one = open("Hello.txt", "w")#create and open
+f_one.write("Hello world")#write
+f_one.close()#close to save
+
+f_one = open("Hello.txt", "r")#open to read
+text = f_one.read(4)#read (use method)
+print(text)
+f_one.seek(0)
+text = f_one.read(5)#read (use method)
+print(text)
+text = f_one.read(2)#read (use method)
+print(text)
+#Hell
+#Hello
+# w
