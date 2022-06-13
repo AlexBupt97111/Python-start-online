@@ -1,0 +1,10 @@
+f_one = open("Hello.txt", "w")#create and open
+f_one.write("Hello worlds and neighboring galaxies")#write
+f_one.close()#close to save
+
+def count_a(file): 
+    a = open(file, "r") 
+    parts = a.read() 
+    return(parts.count("a"))
+    
+print(count_a("Hello.txt"))
