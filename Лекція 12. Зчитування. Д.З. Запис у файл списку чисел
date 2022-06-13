@@ -1,0 +1,11 @@
+n_lst = [1,2,3,4,5,6]
+f_one = open("L_num.txt", "w")#create and open
+for i in n_lst:
+    f_one.write(str(i)+"\n)#write  
+f_one.close()#close to save
+
+
+f_one = open("L_num.txt", "r")#open to read in Replit!!!
+for text in f_one:#use cycle for
+    print(text)
+f_one.close()
