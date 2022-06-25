@@ -1,0 +1,17 @@
+def count_symbol(file, symbol): 
+    count = 0
+    a = open(file, "r") 
+    for parts in a:
+         for letter in parts:
+             if letter == symbol:
+                 count += 1
+    a.close()
+    return count
+
+result = count_symbol("Hello.txt", "h")#carefully, very touchfull to register (high or low)
+print(result)
+
+##########
+f_one = open("Hello.txt", "w")#create and open
+f_one.write("Hello worlds and neighboring galaxies")#write
+f_one.close()#close to save
