@@ -1,0 +1,8 @@
+def add_string(file, string):
+    f_one = open(file, "a")#open and add
+    f_one.write(string)#write
+    f_one.write("\n")
+    f_one.close()#close to save
+
+string = input("Input  string to add it in file: ")
+add_string("New.txt", string)
